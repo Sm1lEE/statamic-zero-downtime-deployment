@@ -95,8 +95,8 @@ return [
     */
 
     'paths' => [
-        base_path('content'),
-        base_path('users'),
+        env('STATAMIC_GIT_CONTENT_PATH', base_path('content')),
+        env('STATAMIC_GIT_USERS_PATH', base_path('users')),
         resource_path('blueprints'),
         resource_path('fieldsets'),
         resource_path('forms'),
