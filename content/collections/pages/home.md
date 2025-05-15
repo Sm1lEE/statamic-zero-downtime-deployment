@@ -5,9 +5,9 @@ title: Home
 template: home
 author: f0758944-bc49-421c-88b3-48b1d0fe2375
 updated_by: f0758944-bc49-421c-88b3-48b1d0fe2375
-updated_at: 1747319731
+updated_at: 1747320867
 ---
-## Welcome to your brand new Statamic site!17
+## Welcome to your brand new Statamic site!19
 
 Not sure what to do next? Here are a few ideas, but feel free to explore in your own way, in your own time.
 
