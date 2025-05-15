@@ -96,7 +96,7 @@ return [
 
     'paths' => [
         env('STATAMIC_GIT_CONTENT_PATH', base_path('content')),
-        env('STATAMIC_GIT_USERS_PATH', base_path('users')),
+        base_path('users'),
         resource_path('blueprints'),
         resource_path('fieldsets'),
         resource_path('forms'),
@@ -104,7 +104,7 @@ return [
         resource_path('preferences.yaml'),
         resource_path('sites.yaml'),
         storage_path('forms'),
-        public_path('assets'),
+        env('STATAMIC_GIT_ASSETS_PATH', public_path('assets')),
     ],
 
     /*
