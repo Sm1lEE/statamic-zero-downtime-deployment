@@ -1,10 +1,10 @@
 ---
 id: a51741bf-4a9c-4dc7-a41b-8e7d2bec2f7c
 blueprint: page
-title: 'About Us1'
+title: 'About Us2'
 author: f0758944-bc49-421c-88b3-48b1d0fe2375
 template: default
 updated_by: f0758944-bc49-421c-88b3-48b1d0fe2375
-updated_at: 1747396642
+updated_at: 1747396730
 ---
 This is about us!
