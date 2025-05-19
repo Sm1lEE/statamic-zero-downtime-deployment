@@ -96,14 +96,17 @@ return [
 
     'paths' => [
         env('STATAMIC_GIT_CONTENT_PATH', base_path('content')),
-        base_path('users'),
-        resource_path('blueprints'),
-        resource_path('fieldsets'),
-        resource_path('forms'),
-        resource_path('users'),
-        resource_path('preferences.yaml'),
-        resource_path('sites.yaml'),
-        storage_path('forms'),
+        env('STATAMIC_GIT_USERS_PATH', base_path('users')),
+
+        env('STATAMIC_GIT_RESOURCES_BLUEPRINTS_PATH', resource_path('blueprints')),
+        env('STATAMIC_GIT_RESOURCES_FIELDSETS_PATH', resource_path('fieldsets')),
+        env('STATAMIC_GIT_RESOURCES_FORMS_PATH', resource_path('forms')),
+        env('STATAMIC_GIT_RESOURCES_USERS_PATH', resource_path('users')),
+        env('STATAMIC_GIT_RESOURCES_PREFERENCES_PATH', resource_path('preferences.yaml')),
+        env('STATAMIC_GIT_RESOURCES_SITES_PATH', resource_path('sites.yaml')),
+
+        env('STATAMIC_GIT_STORAGE_FORMS_PATH', storage_path('forms')),
+
         env('STATAMIC_GIT_ASSETS_PATH', public_path('assets')),
     ],
 
