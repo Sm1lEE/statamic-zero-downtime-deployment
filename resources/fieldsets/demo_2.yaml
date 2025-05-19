@@ -1,0 +1,14 @@
+title: 'Demo 2'
+fields:
+  -
+    handle: favourite_meal
+    field:
+      options:
+        -
+          key: pudding
+          value: Pudding
+        -
+          key: ice
+          value: 'Ice Cream'
+      type: button_group
+      display: 'Favourite Meal'
