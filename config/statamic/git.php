@@ -107,7 +107,7 @@ return [
 
         env('STATAMIC_GIT_STORAGE_FORMS_PATH', storage_path('forms')),
 
-        env('STATAMIC_GIT_ASSETS_PATH', public_path('assets')),
+        env('STATAMIC_GIT_PUBLIC_ASSETS_PATH', public_path('assets')),
     ],
 
     /*
