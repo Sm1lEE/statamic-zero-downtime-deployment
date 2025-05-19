@@ -1,0 +1,8 @@
+title: Demo
+fields:
+  -
+    handle: headline
+    field:
+      type: text
+      display: Headline
+      instructions: 'Enter a demo headline'
